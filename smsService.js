@@ -15,7 +15,7 @@ export class SmsService {
                 params: {
                 key: this.apiKey,
                 password: this.apiPassword,
-                from: props.from,
+                from: this.from,
                 to: props.toPhoneNum,
                 msg: `Hej ${props.fromName}! W tym roku kupujesz prezent ${props.toName} :)`
             }, });

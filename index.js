@@ -19,7 +19,7 @@ function assignRandomParticipants(participants) {
         assignments.push({
             fromName: participant.name,
             toName: shuffled[index].name,
-            toPhoneNum: shuffled[index].phoneNumber
+            toPhoneNum: participant.phoneNumber
         }));
 
     return assignments;
